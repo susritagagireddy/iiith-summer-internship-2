@@ -1,0 +1,41 @@
+## Task-2: AI Image and Video Generation Using ComfyUI
+
+### Objective
+
+Use **ComfyUI** to generate AI images from text prompts and create short videos from images using pretrained diffusion models.
+
+### Task Description
+
+This task involves setting up ComfyUI, downloading the required models, and building two workflows:
+
+1. **Text-to-Image Generation**
+
+   * Load the Flux.1 Krea Dev model, CLIP, and VAE.
+   * Enter a text prompt (e.g., *"A New York skyline at night"*).
+   * Generate and save the AI image.
+
+2. **Image-to-Video Generation**
+
+   * Load the Wan2.2 Image-to-Video model, text encoder, and VAE.
+   * Provide an input image and a descriptive prompt.
+   * Configure generation settings (resolution, steps, FPS, etc.).
+   * Generate and save the output video.
+
+### Tools Used
+
+* ComfyUI
+* Flux.1 Krea Dev
+* Wan2.2 Image-to-Video
+* CLIP Text Encoder
+* VAE
+
+### Deliverables
+
+* AI-generated image from a text prompt.
+* AI-generated video from an input image.
+* Saved image and video outputs.
+
+### Outcome
+
+Learned how to use ComfyUI workflows, load AI models, generate images and videos, and save the final outputs.
+
