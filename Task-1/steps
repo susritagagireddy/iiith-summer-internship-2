@@ -1,0 +1,38 @@
+# ComfyUI Installation (Windows with Python 3.12)
+
+This guide documents the installation of ComfyUI using the manual GitHub method on Windows.
+
+## Prerequisites
+- Windows 10/11
+- Python 3.12 installed
+- Git installed
+- Internet connection
+
+## Step 1: Clone the Repository
+Open Command Prompt or PowerShell and run:
+
+```bash
+git clone https://github.com/comfyanonymous/ComfyUI.git
+cd ComfyUI
+
+# Step 2: Create a Virtual Environment
+py -3.12 -m venv venv
+
+# Step 3: Activate the Virtual Environment
+venv\Scripts\activate
+
+# Step 4: Upgrade pip
+python -m pip install --upgrade pip
+
+# Step 5: Install PyTorch
+pip install torch torchvision torchaudio
+
+# Step 6: Install ComfyUI Dependencies
+pip install -r requirements.txt
+
+# Step 7: Run ComfyUI (CPU Mode)
+python main.py --cpu
+
+# Step 8: Open ComfyUI
+After the server starts, open the following URL in your browser:
+http://127.0.0.1:8188
